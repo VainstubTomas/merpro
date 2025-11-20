@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+    .homePageContainer{
+        max-width: 480px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}

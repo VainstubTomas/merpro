@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 600px;
+    height: 600px;
+    padding: 80px 100px 100px 100px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: self-start;
+    gap: 81px;
+    margin: 60px;
+}
+
+.contactoBloqueA{
+    width: 50%;
+}
+
+.contactoBloqueA .tituloBloqueA{
+    color: black;
+}
+
+.contactoBloqueA .tituloBloqueA, .contactoBloqueA .subTituloBloqueA{
+    text-align: center;
+}
+
+.contactoBloqueA .subTituloBloqueA{
+    margin-top: -40px;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.contactoBloqueB h1{
+    color: black;
+}
+
+.container h2{
+    color: #DE5E14;
+    font-size: 36px;
+}
+
+.container p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.containerBrandsContacts{
+    padding: 20px;
+}
+
+.brandsContacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.brandsContacts ul{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+h3{
+    color: black;
+}
+
+.logosRedes{
+    height: 30px;
+}
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 480px;
+    }
+
+    .contactoBloqueA, .contactoBloqueB{
+        width: 100vw;
+    }
+
+    .contactoBloqueB{
+        margin-top: -30px;
+    }
+
+    #cardAContact, #cardBContact {
+        width: 95vw;
+        max-width: 400px;
+        margin: 0 auto 24px auto;
+    }
+
+    .iframeMaps {
+        width: 85vw;
+        max-width: 400px;
+        height: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contactoBloqueA h1, .contactoBloqueA h2, .contactoBloqueB h1{
+        font-size: 30px;
+    }
+
+    .container p{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .containerBrandsContacts{
+        width: 480px;
+        margin-left: -65px;
+    }
+
+    .brandsContacts{
+        max-width: 480px;
+        width: 480px;
+        flex-direction: row;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .brandsContacts ul{
+        margin-left: -40px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+}

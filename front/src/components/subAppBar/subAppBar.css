@@ -1,0 +1,25 @@
+.subAppBarContainer{
+    background-color: white;
+    height: 18px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subAppBarContainer h1{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (max-width: 480px) {
+  .subAppBarContainer{
+    max-width: 480px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+   .subAppBarContainer{
+    max-width: 1024px;
+}
+}

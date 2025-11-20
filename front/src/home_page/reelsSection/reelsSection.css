@@ -1,0 +1,48 @@
+.reelsContainer{
+    display: flex;
+    max-width: 100vw;
+    height: 700px;
+    background-image: url('../../assets/bannerReels.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    /* pseudo_element */
+    position: relative;
+    overflow: hidden; 
+}
+/* pseudo_element*/
+.reelsContainer::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.603);
+    z-index: 1;
+    pointer-events: none;
+}
+.reelsContainer > * {
+    position: relative;
+    z-index: 2;
+}
+/* pseudo_element*/
+
+.reelsContainer{
+    gap: 50px;
+}
+
+video{
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
+}
+
+@media (max-width: 480px) {
+    .reelsContainer{
+        max-width: 480px;
+        margin-top: 750px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+}
