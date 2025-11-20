@@ -2,7 +2,7 @@ import { Card, CardContent, Button, colors } from "@mui/material"
 import producto1 from "../../assets/productoA.jpg"
 import producto2 from "../../assets/productoB.jpg"
 import producto3 from "../../assets/productoC.jpg"
-import "./Productssection.css"
+import "./productsSection.css"
 
 export default function Productssection(){
     return(
